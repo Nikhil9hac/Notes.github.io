@@ -1,0 +1,100 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  font-size: 1.9rem;
+  margin: auto;
+  width: 90vw;
+}
+
+nav img {
+  height: 10rem;
+}
+
+.container-fluid .navbar-brand {
+  margin-left: 9px;
+  margin-top: 4px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.container-fluid .navbar-brand span {
+  color: #2ecc71;
+  margin-left: 2px;
+}
+
+.container-fluid .navbar-nav {
+  position: absolute;
+  right: 37px;
+  top: 30%;
+}
+
+.container-fluid .nav-item {
+  width: 7vw;
+}
+
+.container-fluid .nav-item a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.container-fluid .nav-item a::before {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  top: 85%;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.container-fluid .nav-item a:hover::before {
+  width: 18%;
+}
+
+.container-fluid .dropdown-toggle {
+  margin-right: 7%;
+}
+
+.container-fluid .dropdown-toggle::after {
+  content: none;
+}
+
+.container-fluid .dropdown-toggle::before {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  top: 85%;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.container-fluid .dropdown-toggle:hover::before {
+  width: 85% !important;
+}
+
+.container-fluid .about {
+  margin-left: 10px;
+}
+
+.container-fluid .navbar-toggler {
+  font-size: 1.7rem;
+}
+/*# sourceMappingURL=font.css.map */

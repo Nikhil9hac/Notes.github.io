@@ -1,0 +1,186 @@
+body {
+  background-color: #212529 !important;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+}
+
+.container-fluid2 {
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 88% !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rightside img {
+  height: 36rem;
+}
+
+.leftside {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 4%;
+  top: 48px;
+}
+
+.leftside p {
+  text-transform: capitalize;
+}
+
+.leftside .up {
+  font-size: 4rem;
+  color: #e74c3c;
+}
+
+.leftside .platform {
+  font-size: 2.1rem;
+}
+
+.leftside .word {
+  font-size: 1.6rem;
+}
+
+.leftside .btn1 {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+  font-size: 1.8rem;
+  background-color: #3498db;
+  padding: 6px;
+  width: 38%;
+  border-radius: 19px;
+  margin-top: 20px;
+}
+
+.bottom {
+  font-size: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom .follow {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.bottom .icon {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 28%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom .fab {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.bottom .fa-instagram {
+  color: #d63031;
+}
+
+.bottom .fa-twitter {
+  color: #0984e3;
+}
+
+.bottom .fa-facebook-f {
+  color: #6c5ce7;
+}
+
+.bottom .fa-telegram {
+  color: #f39c12;
+}
+
+@media only screen and (max-width: 986px) {
+  html {
+    font-size: 53%;
+  }
+  .container-fluid2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100% !important;
+    margin: 0%;
+  }
+  .rightside img {
+    height: 28rem;
+  }
+  .leftside {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .leftside .up {
+    font-size: 3.5rem;
+  }
+  .leftside .btn1 {
+    font-size: 2rem;
+    width: 15rem;
+    height: 5rem;
+  }
+  .leftside .word {
+    font-size: 2rem;
+  }
+  .bottom {
+    margin-top: 14px;
+  }
+  .bottom .icon {
+    display: block;
+    width: 100%;
+  }
+  .bottom .fab {
+    margin-right: 35px;
+    margin-top: 18px;
+    margin-left: 16px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .rightside img {
+    height: 23rem;
+  }
+  .leftside .up {
+    font-size: 3rem;
+  }
+  .leftside .platform {
+    font-size: 1.8rem;
+  }
+  .icon {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,150 @@
+body{
+    background-color: #212529 !important;
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+.container-fluid2{
+    margin: auto;
+    align-items: center;
+    width: 88% !important;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    display: flex;
+}
+.rightside{
+    img{
+        height: 36rem;
+    }
+}
+.leftside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 4%;
+    top: 48px;
+    p{
+        text-transform: capitalize;
+    }
+    .up{
+        font-size: 4rem;
+        color:#e74c3c;
+    }
+    .platform{
+        font-size: 2.1rem;
+    }
+    .word{
+        font-size: 1.6rem;
+    }
+    .btn1{
+        color: #fff;
+        background: none;
+        border: 2px solid #fff;
+        font-size: 1.8rem;
+        background-color: #3498db;
+        padding: 6px;
+        width: 38%;
+        border-radius: 19px;
+        margin-top: 20px;
+    }
+}
+.bottom{
+    font-size: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .follow{
+        font-size: 2.5rem;
+        color: #fff;
+    }
+    .icon{
+        cursor: pointer;
+        display: flex;
+        width: 28%;
+        justify-content: space-between;
+    }
+    .fab{
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    .fa-instagram{
+        color: #d63031;
+    }
+    .fa-twitter{
+        color: #0984e3;
+    }
+    .fa-facebook-f{
+        color: #6c5ce7;
+    }
+    .fa-telegram{
+        color: #f39c12;
+    }
+}
+
+// responive header code
+@media only screen and (max-width: 986px){
+    html{
+        font-size: 53%;
+    }    
+    .container-fluid2{
+        flex-direction: column-reverse;
+        width: 100% !important;
+        margin: 0%;
+    }
+    .rightside{
+        img{
+            height: 28rem;
+        }
+    }
+    .leftside {
+        width: 100%;
+        top: 0;
+        left: 0;
+        .up {
+        font-size: 3.5rem;
+        }
+        .btn1{
+            font-size: 2rem;
+            width: 15rem;
+            height: 5rem;
+        }
+        .word{
+            font-size: 2rem;
+        }
+    }
+    .bottom{
+        margin-top: 14px;
+        .icon{
+            display: block;
+            width: 100%;
+        }
+        .fab {
+            margin-right: 35px;
+            margin-top: 18px;
+            margin-left: 16px;
+        }
+    }
+
+}
+@media only screen and (max-width: 330px){
+    .rightside{
+        img{
+            height: 23rem;
+        }
+    }
+    .leftside{
+        .up{
+            font-size: 3rem;
+        }
+        .platform{
+            font-size: 1.8rem;
+        }
+    }
+    .icon{
+        font-size: 2rem;
+    }
+}
