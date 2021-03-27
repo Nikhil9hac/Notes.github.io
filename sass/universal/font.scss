@@ -10,17 +10,16 @@ html{
 nav{
     font-size: 1.9rem;
     margin: auto;
+    height: 18vh;
     width: 90vw;
     img{
         height: 10rem;
     }
 
 }
-.container-fluid{
     .navbar-brand{
         margin-left: 9px;
         margin-top: 4px;
-        font-size: 2rem;
         color:#fff;
         span{
             color: #2ecc71;
@@ -34,7 +33,7 @@ nav{
     top: 30%;
     }
     .nav-item{
-        width: 7vw;
+        width: 7.9vw;
         a{
             text-decoration: none;
             color: #fff;
@@ -51,39 +50,78 @@ nav{
             -webkit-transition: width 0.5s;
             transition: width 0.5s;
             }
+            &:hover{
+                color: #e74c3c;
+
+            }
             &:hover::before{
                 width: 18%;
             }
         }
         
     }
-    .dropdown-toggle{
-        margin-right: 7%;
-        &::after{
-            content: none;
-        }
-        &::before{
-            content: "";
-        position: absolute;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-        height: 2px;
-        width: 0%;
-        background-color: #fff;
-        top: 85%;
-        -webkit-transition: width 0.5s;
-        transition: width 0.5s;
-        }
-        &:hover::before{
-            width: 85% !important;
-        }
-    }
     .about{
-        
     margin-left: 10px;
-
     }
     .navbar-toggler{
         font-size: 1.7rem;
     }
-}
+    .container-fluid{
+        .navbar-brand{
+            font-size: 2.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 986px){
+        .navbar-collapse{
+            position: absolute;
+            right: 0px;
+            margin-top: 24px;
+            font-size: 2.5rem;
+        }
+        .navbar-toggler-icon{
+            font-size: 2.5rem;
+        }
+        .navbar-toggler{
+            background-color: #0984e3 !important;
+            border-radius: 6px !important;
+        }
+        .nav-item{
+            a{
+                &:hover{
+                    color: #fff;
+                }
+                &::before{
+                    display: none;
+                }
+            }
+        }
+        .navbar-nav{
+            margin-top: 10px;
+        }
+       .nav-item{
+           margin-top: 10px;
+       }
+        .about{
+            margin-left: 0;
+        }
+        .container-fluid{
+            .navbar-brand{
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 490px){
+        .navbar-toggler-icon{
+            font-size: 2.2rem;
+        }
+        .navbar-collapse{
+            margin-right: 37px;
+        }
+        .container-fluid{
+            .navbar-brand{
+                font-size: 3.2rem;
+            }
+        }
+    }

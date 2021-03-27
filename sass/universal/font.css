@@ -13,6 +13,7 @@ html {
 nav {
   font-size: 1.9rem;
   margin: auto;
+  height: 18vh;
   width: 90vw;
 }
 
@@ -20,35 +21,34 @@ nav img {
   height: 10rem;
 }
 
-.container-fluid .navbar-brand {
+.navbar-brand {
   margin-left: 9px;
   margin-top: 4px;
-  font-size: 2rem;
   color: #fff;
 }
 
-.container-fluid .navbar-brand span {
+.navbar-brand span {
   color: #2ecc71;
   margin-left: 2px;
 }
 
-.container-fluid .navbar-nav {
+.navbar-nav {
   position: absolute;
   right: 37px;
   top: 30%;
 }
 
-.container-fluid .nav-item {
-  width: 7vw;
+.nav-item {
+  width: 7.9vw;
 }
 
-.container-fluid .nav-item a {
+.nav-item a {
   text-decoration: none;
   color: #fff;
   letter-spacing: 1px;
 }
 
-.container-fluid .nav-item a::before {
+.nav-item a::before {
   content: "";
   position: absolute;
   -webkit-transform: translateX(-3px);
@@ -61,40 +61,69 @@ nav img {
   transition: width 0.5s;
 }
 
-.container-fluid .nav-item a:hover::before {
+.nav-item a:hover {
+  color: #e74c3c;
+}
+
+.nav-item a:hover::before {
   width: 18%;
 }
 
-.container-fluid .dropdown-toggle {
-  margin-right: 7%;
-}
-
-.container-fluid .dropdown-toggle::after {
-  content: none;
-}
-
-.container-fluid .dropdown-toggle::before {
-  content: "";
-  position: absolute;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px);
-  height: 2px;
-  width: 0%;
-  background-color: #fff;
-  top: 85%;
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
-}
-
-.container-fluid .dropdown-toggle:hover::before {
-  width: 85% !important;
-}
-
-.container-fluid .about {
+.about {
   margin-left: 10px;
 }
 
-.container-fluid .navbar-toggler {
+.navbar-toggler {
   font-size: 1.7rem;
+}
+
+.container-fluid .navbar-brand {
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 986px) {
+  .navbar-collapse {
+    position: absolute;
+    right: 0px;
+    margin-top: 24px;
+    font-size: 2.5rem;
+  }
+  .navbar-toggler-icon {
+    font-size: 2.5rem;
+  }
+  .navbar-toggler {
+    background-color: #0984e3 !important;
+    border-radius: 6px !important;
+  }
+  .nav-item a:hover {
+    color: #fff;
+  }
+  .nav-item a::before {
+    display: none;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .nav-item {
+    margin-top: 10px;
+  }
+  .about {
+    margin-left: 0;
+  }
+  .container-fluid .navbar-brand {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .navbar-toggler-icon {
+    font-size: 2.2rem;
+  }
+  .navbar-collapse {
+    margin-right: 37px;
+  }
+  .container-fluid .navbar-brand {
+    font-size: 3.2rem;
+  }
 }
 /*# sourceMappingURL=font.css.map */

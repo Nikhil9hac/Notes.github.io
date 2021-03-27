@@ -30,59 +30,33 @@ header{
     p{
         text-transform: capitalize;
     }
-    .up{
-        font-size: 4rem;
-        color:#e74c3c;
-    }
-    .platform{
-        font-size: 2.1rem;
-    }
-    .word{
-        font-size: 1.6rem;
-    }
-    .btn1{
-        color: #fff;
-        background: none;
-        border: 2px solid #fff;
-        font-size: 1.8rem;
-        background-color: #3498db;
-        padding: 6px;
-        width: 38%;
-        border-radius: 19px;
-        margin-top: 20px;
-    }
 }
-.bottom{
-    font-size: 2.8rem;
+.up{
+    font-size: 4rem;
+    color:#e74c3c;
+}
+.platform{
+    font-size: 2.1rem;
+}
+.word{
+    font-size: 1.6rem;
+    width: 40rem;
+}
+.btn-group{
+    width: 30rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    .follow{
-        font-size: 2.5rem;
-        color: #fff;
-    }
-    .icon{
-        cursor: pointer;
-        display: flex;
-        width: 28%;
-        justify-content: space-between;
-    }
-    .fab{
-        margin-right: 40px;
-        margin-top: 10px;
-    }
-    .fa-instagram{
-        color: #d63031;
-    }
-    .fa-twitter{
-        color: #0984e3;
-    }
-    .fa-facebook-f{
-        color: #6c5ce7;
-    }
-    .fa-telegram{
-        color: #f39c12;
-    }
+    justify-content: space-evenly;
+}
+.button{
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 1.5rem;
+    background-color: #3498db !important;
+    padding: 6px;
+    width: 37%;
+    border-radius: 19px;
+    margin-top: 20px;
 }
 
 // responive header code
@@ -94,41 +68,52 @@ header{
         flex-direction: column-reverse;
         width: 100% !important;
         margin: 0%;
+        position: relative;
+        top: 40px;
     }
     .rightside{
+        margin-top: -20px;
+        margin-bottom: 10px;
         img{
-            height: 28rem;
+            height: 26rem;
         }
     }
     .leftside {
         width: 100%;
         top: 0;
         left: 0;
-        .up {
-        font-size: 3.5rem;
-        }
-        .btn1{
-            font-size: 2rem;
-            width: 15rem;
-            height: 5rem;
-        }
-        .word{
-            font-size: 2rem;
-        }
     }
-    .bottom{
-        margin-top: 14px;
-        .icon{
-            display: block;
-            width: 100%;
-        }
-        .fab {
-            margin-right: 35px;
-            margin-top: 18px;
-            margin-left: 16px;
-        }
+    .up {
+    font-size: 3.5rem;
+    }
+    .word{
+        font-size: 2rem;
+    }
+    .btn-group{
+        width: 40rem;
+    }
+    .button{
+        font-size: 2rem;
+        width: 15rem;
+        height: 5rem;
     }
 
+}
+@media only screen and (max-width: 500px){
+    .rightside{
+        img{
+            height: 23rem;
+        }
+    }
+    .up{
+        font-size: 3.1rem;
+    }
+    .platform{
+        font-size: 1.9rem;
+    }
+    .word{
+        font-size: 1.8rem;
+    }
 }
 @media only screen and (max-width: 330px){
     .rightside{
@@ -136,13 +121,11 @@ header{
             height: 23rem;
         }
     }
-    .leftside{
-        .up{
-            font-size: 3rem;
-        }
-        .platform{
-            font-size: 1.8rem;
-        }
+    .up{
+        font-size: 3rem;
+    }
+    .platform{
+        font-size: 1.8rem;
     }
     .icon{
         font-size: 2rem;

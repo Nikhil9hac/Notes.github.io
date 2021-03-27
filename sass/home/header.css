@@ -48,80 +48,40 @@ header {
   text-transform: capitalize;
 }
 
-.leftside .up {
+.up {
   font-size: 4rem;
   color: #e74c3c;
 }
 
-.leftside .platform {
+.platform {
   font-size: 2.1rem;
 }
 
-.leftside .word {
+.word {
   font-size: 1.6rem;
+  width: 40rem;
 }
 
-.leftside .btn1 {
+.btn-group {
+  width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.button {
   color: #fff;
   background: none;
   border: 2px solid #fff;
-  font-size: 1.8rem;
-  background-color: #3498db;
+  font-size: 1.5rem;
+  background-color: #3498db !important;
   padding: 6px;
-  width: 38%;
+  width: 37%;
   border-radius: 19px;
   margin-top: 20px;
-}
-
-.bottom {
-  font-size: 2.8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.bottom .follow {
-  font-size: 2.5rem;
-  color: #fff;
-}
-
-.bottom .icon {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 28%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.bottom .fab {
-  margin-right: 40px;
-  margin-top: 10px;
-}
-
-.bottom .fa-instagram {
-  color: #d63031;
-}
-
-.bottom .fa-twitter {
-  color: #0984e3;
-}
-
-.bottom .fa-facebook-f {
-  color: #6c5ce7;
-}
-
-.bottom .fa-telegram {
-  color: #f39c12;
 }
 
 @media only screen and (max-width: 986px) {
@@ -135,37 +95,49 @@ header {
             flex-direction: column-reverse;
     width: 100% !important;
     margin: 0%;
+    position: relative;
+    top: 40px;
+  }
+  .rightside {
+    margin-top: -20px;
+    margin-bottom: 10px;
   }
   .rightside img {
-    height: 28rem;
+    height: 26rem;
   }
   .leftside {
     width: 100%;
     top: 0;
     left: 0;
   }
-  .leftside .up {
+  .up {
     font-size: 3.5rem;
   }
-  .leftside .btn1 {
+  .word {
+    font-size: 2rem;
+  }
+  .btn-group {
+    width: 40rem;
+  }
+  .button {
     font-size: 2rem;
     width: 15rem;
     height: 5rem;
   }
-  .leftside .word {
-    font-size: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .rightside img {
+    height: 23rem;
   }
-  .bottom {
-    margin-top: 14px;
+  .up {
+    font-size: 3.1rem;
   }
-  .bottom .icon {
-    display: block;
-    width: 100%;
+  .platform {
+    font-size: 1.9rem;
   }
-  .bottom .fab {
-    margin-right: 35px;
-    margin-top: 18px;
-    margin-left: 16px;
+  .word {
+    font-size: 1.8rem;
   }
 }
 
@@ -173,10 +145,10 @@ header {
   .rightside img {
     height: 23rem;
   }
-  .leftside .up {
+  .up {
     font-size: 3rem;
   }
-  .leftside .platform {
+  .platform {
     font-size: 1.8rem;
   }
   .icon {
