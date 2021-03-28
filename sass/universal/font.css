@@ -84,7 +84,7 @@ nav img {
 @media only screen and (max-width: 986px) {
   .navbar-collapse {
     position: absolute;
-    right: 0px;
+    right: -40px;
     margin-top: 24px;
     font-size: 2.5rem;
   }
@@ -94,6 +94,9 @@ nav img {
   .navbar-toggler {
     background-color: #0984e3 !important;
     border-radius: 6px !important;
+  }
+  .nav-item {
+    width: 100%;
   }
   .nav-item a:hover {
     color: #fff;
@@ -120,7 +123,7 @@ nav img {
     font-size: 2.2rem;
   }
   .navbar-collapse {
-    margin-right: 37px;
+    margin-right: 8px;
   }
   .container-fluid .navbar-brand {
     font-size: 3.2rem;
