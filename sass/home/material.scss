@@ -1,0 +1,40 @@
+section{
+    background-color: #212529;
+}
+main{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+.card{
+    width: 19rem;
+    height: 31rem;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+        width: 11rem;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    .btn-primary{
+        font-size: 1.4rem;
+        width: 9rem;
+    }
+}
+.card-title{
+    font-size: 1.7rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
