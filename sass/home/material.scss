@@ -16,6 +16,21 @@ main{
     flex-wrap: wrap;
     text-transform: capitalize;
 }
+.image1{
+    img{
+        width: 5.6rem !important;
+    }
+}
+.image4{
+    img{
+        width: 9rem !important;
+    }
+}
+.image5{
+    img{
+        width: 13rem !important;
+    }
+}
 .card{
     width: 21rem;
     height: 34rem;
@@ -163,7 +178,4 @@ input[type=button]{
     #submitBtn{
         margin-right: 7%;
     }
-}
-@media only screen and (max-width: 526px){
-
 }
