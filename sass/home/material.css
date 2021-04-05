@@ -173,4 +173,30 @@ input[type=button] {
 .btn-group2 {
   margin-top: 1%;
 }
+
+#is-student {
+  padding-right: 3%;
+}
+
+#submitBtn {
+  margin-right: 2%;
+}
+
+@media only screen and (max-width: 628px) {
+  .top img {
+    height: 33vh;
+  }
+  input[type=text] {
+    width: 62%;
+  }
+  input[type=email] {
+    width: 62%;
+  }
+  #is-student {
+    padding-right: 8%;
+  }
+  #submitBtn {
+    margin-right: 7%;
+  }
+}
 /*# sourceMappingURL=material.css.map */
