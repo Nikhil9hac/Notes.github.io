@@ -36,7 +36,7 @@ footer {
 }
 
 .copyright p {
-  color: #fff;
+  color: #fdcb6e;
   font-size: 2.2rem;
 }
 
@@ -86,10 +86,13 @@ footer {
             align-items: center;
   }
   .copyright p {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
+  }
+  .copyright ul li {
+    margin-bottom: 10px;
   }
   .copyright ul li a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .disclaimer {
     bottom: -40px;
