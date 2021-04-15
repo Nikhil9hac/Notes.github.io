@@ -6,6 +6,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  background-color: #212529 !important;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -35,7 +39,7 @@ nav img {
 .navbar-nav {
   position: absolute;
   right: 37px;
-  top: 30%;
+  top: 40%;
 }
 
 .nav-item {
