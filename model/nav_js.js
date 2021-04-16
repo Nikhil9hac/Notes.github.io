@@ -15,7 +15,7 @@ const nav=` <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-aos="f
         <a class="nav-a" aria-current="page" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-a" aria-current="" href="/material">Material</a>
+        <a class="nav-a" aria-current="" href="#">PYQS</a>
       </li>
      
         <li class="nav-item">

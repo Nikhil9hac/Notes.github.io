@@ -1,0 +1,31 @@
+  <p class="question">What is Technolthon</p>
+                <p class="answer">Technothlon is an international school championship organized by the student fraternity of IIT Guwahati. Technothlon was started with a group of students in a small room in 2004 to inspire young minds. The competition started with students in the city of Guwahati.
+                Later, it expanded to more than 400 cities in the past 14 years with various centres abroad.Now Technothlon spans its wings in 30+ countries internationally. Technothlon is not just an exam but it is an enthralling journey on the path of logic which will test your
+                logical and creative thinking to its limit. The championship is organized over 2 rounds</p>
+
+                <p class="question">Examination level</p>
+                <p class="answer">
+                <p >Prelims</p>
+                <p>
+                This Exam is Type of  a written preliminary examination that takes place in numerous schools all over India in July. The Paper contain only general and logical reasoning
+                The question paper is generally of 2 and ½ hours in length and will have various sections.The two team members are given a common question paper, which they can discuss and attempt together.</p>
+                </p>
+                <p class="answer">
+                    <p>Mains</p>
+                    <p>
+                    it is  event-based competition, conducted during Techniche, the Techno-Management Festival of IIT Guwahati. The top 50 teams from each squad compete against each other in challenging events designed to test their innovation, creativity, and imagination. These events do not require any prerequisite knowledge and, any extra knowledge required is taught to the students by us. The winners of Technothlon are crowned based on their performance in these events. In addition to this, students are also free to attend the numerous competitions, lectures, workshops, and music performances of Techniche.</p>
+                </p>
+
+
+                <p class="question">Exam Structure<p>
+                <p class="answer">
+                    Students participate individually. There are two squads:
+                    <p>1. Juniors-Squad: Students of classes 9th and 10th</p>
+                    <p>2. Hauts Squad Students of classes 11th and 12th</p>
+                </p>
+
+                <p class="question">Modes of Registration</p>
+                <p class="answer">There are 2 modes of registration - Online and Offline.
+                    <p>1. Offline - Participating schools can collect the registration fees themselves and then prepare a demand draft to be handed over to the city representatives.</p>
+                    <p>2. Online - You can register online too! Online registration portal is now active!</p>
+                </p>

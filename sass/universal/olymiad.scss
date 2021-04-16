@@ -13,7 +13,67 @@ body{
     background-color: #212529;
 }
 nav{
+    height: 15vh;
     img{
         height: 9rem;
     }
+}
+.container-fluid {
+    .navbar-brand {
+    font-size: 3rem;
+    }
+}
+.navbar-toggler-icon {
+    font-size: 2rem;
+}
+
+// designing olymiad page
+.olymiad{
+    width: 95%;
+    margin: 60px auto;
+    .olymiad-image{
+        img{
+            height: 24vh;
+        }
+    }
+}
+p{
+    font-size: 1.5rem;
+}
+.question{
+    font-size: 2.5rem;
+    color:#34495e;
+}
+
+// desinging the button
+.olymiad-option{
+    margin-top: 27px;
+    button{
+        font-size: 3rem;
+        width: 10rem;
+        margin: 0 16px 0px 20px;
+    }
+}
+.show{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+@media only screen and (max-width: 667px){
+    .olymiad{
+        .olymiad-image{
+            img{
+                height: 17vh;
+            }
+        }
+    }
+    .olymiad-option{
+        margin-top: 10px;
+        button{
+            font-size: 2.5rem;
+            width: 9rem;
+            margin-top: 20px;
+        }
+    }
+
 }
