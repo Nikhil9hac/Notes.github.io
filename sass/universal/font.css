@@ -50,6 +50,7 @@ nav img {
   text-decoration: none;
   color: #fff;
   letter-spacing: 1px;
+  font-size: 1.8rem;
 }
 
 .nav-item a::before {

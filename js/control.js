@@ -6,7 +6,10 @@ const getRegister=document.querySelector('.olymiad-register')
 const details=document.querySelector('.details');
 const previous=document.querySelector('.pyqs');
 const zone=document.querySelector('.zone');
-const register=document.querySelector('.registration')
+const register=document.querySelector('.registration');
+const selectBtn=document.querySelector('.go')
+const junior=document.querySelector('.junior')
+const hauts=document.querySelector('.hauts')
 
 // adding Event listiener
 getInform.addEventListener('click',()=>{
@@ -26,4 +29,15 @@ getRegister.addEventListener('click',()=>{
     details.style.display="none";
     previous.style.display="none"
     register.style.display="block"
+})
+selectBtn.addEventListener('click',()=>{
+  let optionUsed = select.options[select.selectedIndex].text;
+  if (optionUsed=='Junior') {
+      junior.style.display="block";
+      hauts.style.display="none";
+  }
+  else if(optionUsed=="Hauts"){
+      junior.style.display="none"
+      hauts.style.display="block"
+  }
 })

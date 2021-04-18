@@ -13,11 +13,7 @@ const nav=` <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-aos="f
     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
       <li class="nav-item">
         <a class="nav-a" aria-current="page" href="/">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-a" aria-current="" href="#">PYQS</a>
-      </li>
-     
+      </li>     
         <li class="nav-item">
           <a class="nav-a about" href="/about">About</a>
         </li>
