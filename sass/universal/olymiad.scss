@@ -169,6 +169,15 @@ p{
     }
 
 }
+.registration{
+    ul{
+        li{
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            margin: 4px 14px 8px 9px;
+        }
+    }
+}
 @media only screen and (max-height: 600px){
     #navbar{
         height: 10rem;
