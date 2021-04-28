@@ -1,0 +1,32 @@
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    img{
+        image-rendering: optimizeSpeed;
+        height: 46vh;
+    }
+}
+.foundation {
+    p{
+        margin-top: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width:621px) {
+    .container4{
+        img{
+            height: 40vh;
+        }
+    }
+}
+@media only screen and (max-width:475px){
+.container4{
+    img{
+        height: 28vh;
+    }
+}
+}
