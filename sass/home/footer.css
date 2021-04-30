@@ -1,7 +1,6 @@
 footer {
   background-color: #212529;
-  position: relative;
-  height: 100vh;
+  margin-top: 19rem;
 }
 
 .study-animation {
@@ -12,6 +11,10 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19,47 +22,49 @@ footer {
 
 .study-animation p {
   color: #fff;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
-.copyright {
+.study-animation img {
+  height: 20rem;
+}
+
+.quick-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   letter-spacing: 0.5;
   text-transform: capitalize;
-  width: 90%;
+  width: 60;
   margin: auto;
 }
 
-.copyright p {
+.quick-link p {
   color: #fdcb6e;
   font-size: 2.2rem;
 }
 
-.copyright ul li {
+.quick-link ul li {
   margin-bottom: 4px;
   list-style: none;
 }
 
-.copyright ul li a {
+.quick-link ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.3rem;
 }
 
-.copyright ul li a:hover {
+.quick-link ul li a:hover {
   color: #e74c3c;
 }
 
 .disclaimer {
   color: #fff;
-  position: absolute;
-  bottom: 0px;
-  width: 95%;
+  margin-top: 2rem;
   font-size: 1.5rem;
   text-transform: capitalize;
 }
@@ -75,7 +80,7 @@ footer {
   .study-animation {
     height: 40vh;
   }
-  .copyright {
+  .quick-link {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -85,13 +90,13 @@ footer {
         -ms-flex-align: center;
             align-items: center;
   }
-  .copyright p {
+  .quick-link p {
     font-size: 1.9rem;
   }
-  .copyright ul li {
+  .quick-link ul li {
     margin-bottom: 10px;
   }
-  .copyright ul li a {
+  .quick-link ul li a {
     font-size: 1.6rem;
   }
   .disclaimer {

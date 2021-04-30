@@ -11,6 +11,8 @@ const selectBtn=document.querySelector('.go')
 const junior=document.querySelector('.junior')
 const hauts=document.querySelector('.hauts')
 
+const searcher=document.getElementById('searcherBar');
+const searcherBtn=document.querySelector('.searcherBtn');
 // adding Event listiener
 getInform.addEventListener('click',()=>{
     zone.innerHTML="<u>Details</u>"

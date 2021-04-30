@@ -1,29 +1,32 @@
 footer{
     background-color: #212529;
-    position: relative;
-    height: 100vh;
+    margin-top: 19rem;
 }
 .study-animation{
     height: 55vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     p{
         color: #fff;
-        font-size: 5rem;
+        font-size: 3rem;
+    }
+    img{
+        height: 20rem;
     }
 }
-.copyright{
+.quick-link{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     letter-spacing: 0.5;
     text-transform: capitalize;
-    width: 90%;
+    width: 60;
     margin: auto;
    
 
     p{
-        color: #fdcb6e;
+    color: #fdcb6e;
         font-size: 2.2rem;
     }
     ul{
@@ -43,9 +46,7 @@ footer{
 }
 .disclaimer{
     color: #fff;
-    position: absolute;
-    bottom: 0px;
-    width: 95%;
+    margin-top: 2rem;
     font-size: 1.5rem;
     text-transform: capitalize;
     span{
@@ -59,7 +60,7 @@ footer{
     .study-animation{
         height: 40vh;
     }
-    .copyright{
+    .quick-link{
         width: 100%;
         flex-direction: column;
         align-items: center;
