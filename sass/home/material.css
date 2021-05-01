@@ -16,6 +16,7 @@
 }
 
 main {
+  position: relative;
   width: 95%;
   margin: 50px auto;
   display: -ms-grid;
@@ -242,6 +243,14 @@ input[type=email] {
 
 .message-box {
   margin-top: 1rem;
+}
+
+.hide {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: none;
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 990px) {
