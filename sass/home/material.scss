@@ -200,10 +200,13 @@ input[type=email]{
         height: 23rem;
     }
 }
-@media only screen and(max-width:480px){
+@media only screen and(max-width:483px){
     #userQuery{
         width: 35rem;
         height: 28rem;
+    }
+    .hidepara{
+        margin-left: -17rem !important;
     }
 }
 @media only screen and (max-width: 628px){

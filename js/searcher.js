@@ -5,6 +5,7 @@ const searcherBtn=document.querySelector('.searcherBtn');
 const card=document.querySelectorAll('.card');
 const hide=document.querySelector('.hide');
 const main=document.querySelector('.cardContainer');
+const hidePara=document.querySelector('.hidepara')
 blockCount=0;
 const cardModifier=()=>{
     card.forEach(element=>{
@@ -42,11 +43,12 @@ setInterval(()=>{
 })
 if (blockCount!=0) {
     hide.style.display='none';
-    main.style.display='grid';
+    hidePara.style.position="absolute";
+    hidePara.style.marginTop="4rem"
+    hidePara.style.marginLeft="-5rem"
     blockCount=0;
 }
 else{
     hide.style.display='block'
-    main.style.display='block'
 }
 },1000);
