@@ -188,6 +188,24 @@ input[type=email]{
         margin-top: 6rem;
     }
 }
+@media only screen and (max-width: 766px){
+    #userQuery{
+        width: 66rem;
+        height: 30rem;
+    }
+}
+@media only screen and (max-width: 597px){
+    #userQuery{
+        width: 53rem;
+        height: 23rem;
+    }
+}
+@media only screen and(max-width:480px){
+    #userQuery{
+        width: 35rem;
+        height: 28rem;
+    }
+}
 @media only screen and (max-width: 628px){
     #study-material{
         margin-bottom: 11rem;
